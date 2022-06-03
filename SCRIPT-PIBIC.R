@@ -3,9 +3,9 @@ library(ENMTML)
 
 
 ENMTML(pred_dir ="C:/Ailton/PIBIC/Biovar/Neotropic",
-       occ_file= "C:/Ailton/Occ/occurrence_all.txt",
-       result_dir="C:/Ailton/result_dir_all", # Cria o destinario para os resultados
-       proj_dir= "C:/Ailton/Biovar_futuro", # Diretorio contendo as var. do futuro
+       occ_file= "C:/Ailton/PIBIC/Occ/occurrence_all.txt",
+       result_dir="C:/Ailton/PIBIC/result_dir_all", # Cria o destinario para os resultados
+       proj_dir= "C:/Ailton/PIBIC/Biovar_futuro", # Diretorio contendo as var. do futuro
        sp="sp", x="x", y="y", # Colunas nos arquivos de pontos de ocorrencia
        min_occ=1,
        colin_var=c(method="VIF"),  # Method to reduce variable collinearity
